@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "watch": "webpack --watch --mode=development --devtool=source-map --config webpack.config.js",
+    "build": "webpack --mode=production --config webpack.config.js"
+  },
+  "devDependencies": {
+    "@types/chrome": "^0.0.241",
+    "copy-webpack-plugin": "^11.0.0",
+    "jspdf": "^2.5.1",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}

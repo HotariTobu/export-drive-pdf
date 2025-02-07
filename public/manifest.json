@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "export-drive-pdf",
+    "version": "1",
+    "icons": {
+        "16": "icon16.png",
+        "128": "icon128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://drive.google.com/file/d/*/view"
+            ],
+            "js": [
+                "download.js"
+            ]
+        }
+    ]
+}
